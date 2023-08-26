@@ -1,3 +1,8 @@
-print("Hello")
+n = input()
+m = input()
 
-print("hello2")
+string_numbers = m.split()
+int_numbers = list(map(int, string_numbers))
+
+maxi = max(int_numbers)
+print(maxi)
